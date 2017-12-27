@@ -1,0 +1,13 @@
+---
+layout: default
+title: Miembros
+---
+
+<div id="miembros">
+  <h1>Miembros</h1>
+	<ul>
+		{% for miembro in site.data.miembros %}
+		<li>{{ miembro.Usuario }} • {{ miembro.Switch }}</li>
+		{% endfor %}
+	</ul>
+</div>
