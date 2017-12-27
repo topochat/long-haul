@@ -16,6 +16,8 @@ navigation:
    url: /index
  - title: Miembros
    url: /miembros
+ - title: Chat
+   url: "https://t.me/joinchat/AHQACz4JoVKo_F3GtPJqWQ"
 
 social:
    github: 
